@@ -18,6 +18,7 @@ async function getMeals() {
         `;
     }
     };
+    console.log(data.meals)
     container.innerHTML = cards;
 }
 

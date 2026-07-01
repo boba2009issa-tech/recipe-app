@@ -9,53 +9,34 @@
 </head>
 <body>
     <header class="p-4  h-15 bg-orange-400 flex items-center justify-evenly">
-        <a class="" href=""><i class="fa-solid fa-kitchen-set  text-neutral-100 text-4xl"></i></a>
-        <a class="text-white font-extrabold bg-amber-400 hover:text-yellow-200 rounded-tl-3xl rounded-br-3xl p-1.5" href="">My Recipes</a>
-        <a class="text-white font-extrabold bg-amber-400 hover:text-yellow-200 rounded-tl-3xl rounded-br-3xl p-1.5" href="">Add Recipes</a>
+    <a class="" href=""><i class="fa-solid fa-kitchen-set  text-neutral-100 text-4xl"></i></a>
+    <a class="text-white font-extrabold bg-amber-400 hover:text-yellow-200 rounded-tl-3xl rounded-br-3xl p-1.5" href="">My Recipes</a>
+    <a class="text-white font-extrabold bg-amber-400 hover:text-yellow-200 rounded-tl-3xl rounded-br-3xl p-1.5" href="">Add Recipes</a>
     </header>
         <section class="frist">
-            <img id="image" class="w-80% " src="niekverlaan-hamburger-494706_1920.jpg" alt="">
-            <p id="name" class="text-white mx-auto text-center  font-extrabold bg-amber-400 rounded-tl-3xl mt-6 rounded-br-3xl p-1.5 w-50 ">Burger</p>
+        <img id="image" class=" w-screen h-100 lg:h-150" src="" alt="">
+        <p id="name" class="text-white mx-auto text-center  font-extrabold bg-amber-400 rounded-tl-3xl mt-6 rounded-br-3xl p-1.5 w-50 "></p>
+
         </section>
 
-        <section class="ingredients">
-            <ul class="list-disc ml-6 mt-6 space-y-2">
-                <li>salt</li>
-                <li>salt</li>
-                <li>salt</li>
-                <li>salt</li>
-                <li>salt</li>
-                <li>salt</li>
-                <li>salt</li>
-                <li>salt</li>
-                <li>salt</li>
-                <li>salt</li>
-                <li>salt</li>
-                <li>salt</li>
-                <li>salt</li>
-                <li>salt</li>
-                <li>salt</li>
-                <li>salt</li>
-                <li>salt</li>
-                <li>salt</li>
-                <li>salt</li>
-                <li>salt</li>
+        <section class="ing">
+            <p class="m-2 font-extrabold ">Ingredients :</p>
+            <ul id="ingredients" class="list-disc ml-6 mt-6 space-y-2">
+
             </ul>
         </section>
 
-        <section class="px-4 mt-6">
-            <p id="method" class="text-white mx-auto text-center  font-extrabold bg-amber-400 rounded-tl-3xl mt-6 rounded-br-3xl p-1.5 w-50 ">Method</p>
+        <section class="px-4  mt-6 w-full">
+            <p  class="text-white mx-auto text-center  font-extrabold bg-amber-400 rounded-tl-3xl mt-6 rounded-br-3xl p-1.5 w-50 ">Method</p>
 
-            <p class=" text-sm leading-8 whitespace-pre-line break-words">"For the caramel place 100 grams of sugar in a frying pan without any fat and melt on medium heat. Try not to stir with a spoon, but swirl the pan itself. Let melt until you have an amber color and sugar is fully melted. Fill the bottom of four flan containers with it. Caramel will harden immediately, so you need to be fast. My containers yield about 120 milliliters each.\r\n\r\n2\r\nPreheat oven to 150 degrees Celsius and look for a casserole or container all your four flan containers fit into.\r\n\r\n3\r\nHeat milk with 45 grams of sugar and the cut and scraped out vanilla pod. The milk does not need to boil, just needs to be heated. Take out vanilla pod after a few minutes. Meanwhile stir the egg yolks and eggs gently, try not to incorporate any air in it. Them pour milk-mix into egg-mix and again only stir very gently. Pour into prepared flan containers and place these into your casserole or container. Boil water and pour the water into the large casserole. Be sure not to touch the flan mixture. Place on middle rack in the oven and let bake for about 35-40 minutes. An inserted toothpick should come out clean.\r\n\r\n4\r\nLet cool inside the container for an hour before transferring to the fridge. Chill overnight. The next day gently release the rim and then turn upside down on a plate. Serve with some dulce de leche on the side."</p>
-<iframe
-    class=" mt-3 border-2 rounded-4xl mb-3 "
-    width="280"
-    height="200"
-    src="https://www.youtube.com/embed/VVnZd8A84z4"
-    title="YouTube video player"
-    allowfullscreen>
-</iframe>    
+            <p id="method" class=" text-lg font-medium leading-8 whitespace-pre-line break-words"></p>
+            <iframe
+        id="video"
+        class="w-full aspect-video rounded-xl"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
 </section>
-    <script src="script.js"></script>
+    <script src="recipe.js"></script>
 </body>
 </html>
